@@ -2,7 +2,7 @@ body {
     align-items: center;
     font-family: "Happy Monkey", sans-serif;
     color: #ffffff;
-    background-color: #c6dcf0;
+    background: linear-gradient(#c6dcf0, #efb0c9);
 }
 
 #header {
@@ -83,4 +83,16 @@ p {
 #gift-img-happybirthday:hover {
     background-image: url("images/happybirthday.gif");
     background-position: center;
+}
+
+footer {
+    width: 400px;
+    text-align: center;
+    font-style: italic;
+    margin: 0px auto;
+}
+
+a,
+a:visited {
+    color: white;
 }
